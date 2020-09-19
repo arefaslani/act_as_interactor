@@ -27,4 +27,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'guard', '~> 2.16'
   spec.add_development_dependency 'guard-shell', '~> 0.7'
+  spec.add_dependency 'dry-matcher', '~> 0.8.3'
+  spec.add_dependency 'dry-monads', '~> 1.3.5'
 end
